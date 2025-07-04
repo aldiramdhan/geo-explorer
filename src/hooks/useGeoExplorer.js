@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyB351DLmT6gkkWeWR1w61Jtv3iTpKK0jxI";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyDV9Siia6SHRCmDm2NbJcPoSkiq_-KDvrU";
 
 const useGeoExplorer = () => {
   const [isMapLoading, setIsMapLoading] = useState(false);
